@@ -1,0 +1,114 @@
+body {
+  background-color: #ffffff;
+  font-family: fraunces;
+}
+.nav {
+  padding: 0px;
+  margin: -6px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 2px solid #000000;
+  background-color: #f8e1ff;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(68, 0, 64);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  border-radius: 20px;
+  cursor: pointer;
+  background: #fafafa;
+  color: rgb(29, 0, 37);
+  font-variant: small-caps;
+}
+
+h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 50px;
+  margin: 1px;
+}
+
+h2 {
+  border-bottom: 1px solid rgb(48, 1, 41);
+  font-family: Sans-Serif;
+  font-size: 40px;
+  color: rgb(141, 8, 112);
+}
+
+p {
+  line-height: 30px;
+  color: rgb(51, 41, 41);
+}
+
+main {
+  margin: 0vh;
+}
+
+.word {
+  min-height: 20vh;
+  padding-top: 10px;
+}
+
+.landing {
+  padding: 1px;
+  text-align: left;
+}
+.highlighted {
+  background-color: rgb(244, 212, 255);
+}
+#Services.highlighted {
+  background-color: rgb(169, 125, 184);
+}
+#about.highlighted {
+  background-color: rgb(179, 93, 207);
+}
+#Contact.highlighted {
+  background-color: rgb(128, 46, 155);
+}
+/* Footer Styles */
+.page__footer {
+  margin: 40px -8px -8px -8px;
+  background-color: #000904;
+  padding: 0px 40px 20px;
+  color: #ffffff;
+}
+.list {
+  display: inline-table;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin: 50px;
+  color: #ffffff;
+}
+.list-line {
+  font-size: 15px;
+  line-height: 25px;
+  color: #d755f1;
+  text-decoration: none;
+  margin: 20px;
+}
+.list-line:before {
+  margin-left: -15px;
+  content: "\2022";
+  padding-right: 5px;
+}
+.list-line:hover {
+  color: #310241;
+}
