@@ -73,15 +73,7 @@ main {
 .highlighted {
   background-color: rgb(244, 212, 255);
 }
-#Services.highlighted {
-  background-color: rgb(169, 125, 184);
-}
-#about.highlighted {
-  background-color: rgb(179, 93, 207);
-}
-#Contact.highlighted {
-  background-color: rgb(128, 46, 155);
-}
+
 /* Footer Styles */
 .page__footer {
   margin: 40px -8px -8px -8px;
